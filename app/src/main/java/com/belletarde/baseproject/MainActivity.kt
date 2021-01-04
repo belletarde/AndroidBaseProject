@@ -19,5 +19,5 @@ class MainActivity : AppCompatActivity(), StartFragment.OnButtonClicked {
         supportFragmentManager.beginTransaction()
             .replace(R.id.mainContainer, ProfileFragment.newInstance())
             .commit()
-    }
+    }//
 }
